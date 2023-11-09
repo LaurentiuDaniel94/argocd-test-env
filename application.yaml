@@ -9,9 +9,9 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: guestbook
+    path: guestbook-app
     repoURL: https://github.com/LaurentiuDaniel94/argocd-test-env.git
-    targetRevision: master 
+    targetRevision: master
   syncPolicy:
     syncOptions:
-      - CreateNamespace=true 
+      - CreateNamespace=true
